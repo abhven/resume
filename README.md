@@ -1,4 +1,4 @@
-# resume
+# Resume
 Repository for Resume
 
 This is a really cool template for making your resume on Latex. 
