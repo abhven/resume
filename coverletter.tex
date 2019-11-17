@@ -1,0 +1,141 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[circle,noedge,left]{./examples/profile}
+\name{Abhishek}{Venkataraman}
+\position{Senior Robotics Engineer}
+\address{6999 Warren Rd, Ann Arbor, Michigan(MI), 48105}
+
+\mobile{(734) 222-0222}
+\email{abeeshek@gmail.com}
+\homepage{www.abhven.com}
+\github{abhven}
+\linkedin{abhishek-venkataraman-75ba1731}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+\quote{``Maybe if i stare at this piece of paper long enough, people will think I can read!"}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Company Recruitment Team}
+  {Warner Bros Inc.\\3400 Warner Blvd,\\ Burbank, CA 91505}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Robotics Engineer}
+% How the letter is opened
+\letteropening{Dear Mr./Ms./Dr. Duck,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Resume}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Abhishek Venkataraman~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+% \lettersection{About Me}
+Drip-Along Daffy's 'ma name! (men quietly play cards, unaware of Daffy's pronoucements) Anybody care to shoot it out? Man to man? Under western skies? West of the Pecos? Tumbleweeds at ten paces? (starting to realize no one is caring) Ten thousand head the cattle? (with less and less conviction) Cut 'em off at the pass? Prairies? Lariats? (after a pause) Anyone for tennis? (no reaction) Anybody? (changing to personal enjoyment) Well, reckon I'll have me a little bracer!
+
+% \lettersection{Why Google?}
+Oh, people call me Daffy, they say that I am gooney. Just because I'm happy is no sign I'm Looney Tuney.
+When they call me nutsy, that sure gives me a pain. Please pass the ketchup, I think it's going to rain.
+Oh, you can't bounce a meatball, though try with all your might. Turn on the radio, I want to fly a kite!
+Good evening, frieeeeeeeends...
+
+% \lettersection{Why Me?}
+Starting from where we are we go 33,600 turbo miles due up. Then west in an arc-deviation to here. Then following the Great Circle several radiolubes south by down-east. By astro-astroble to here, here, and here, then by space navigal compass to here, here and then to here, and here. By thirteen point strato-cumulus going four million light years and THUS to our destination.
+
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
