@@ -1,0 +1,148 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+ \definecolor{awesome}{HTML}{2891ad}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[circle,noedge,left]{./examples/profile}
+
+\name{Deepa}{Bharadwaj}
+\position{User Experience Designer}
+\address{San Francisco, CA}
+
+\homepage{deepabharadwaj.com}
+\mobile{(734) 263-4130}
+\email{deepa@deepabharadwaj.com}
+%\github{deepabharadwaj}
+\linkedin{deepa-bharadwaj}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extrainfo}
+
+%\quote{``Maybe if i stare at this piece of paper long enough, people will think I can read!"}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Recruitment Team}
+  {X, THE MOONSHOT FACTORY,\\ Mountain View, CA}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for UX Designer at XXX}
+% How the letter is opened
+\letteropening{ }
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Resume}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Deepa Bharadwaj~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+% \lettersection{About Me}
+Hi! I'm Deepa Bharadwaj, and it is with great enthusiasm that I apply for the role of UX Designer in XXX. I have been following XXX work over the past year, and it would be wonderful to contribute to your design methodologies. I'm extremely interested in exploring ways to reinvent design thinking through XXX
+
+% \lettersection{Why Me?}
+Having been designing and practicing architecture for over 3 years, I've learned the importance of leveraging empathy and a deep understanding of design systems to craft user-centered solutions. During the six month UXUI bootcamp at UC Berkeley, I enjoyed translating my experience designing for the built environment to choreographing digital experiences. My extensive user-centered design background has equipped me with a wide range of tools needed for visual storytelling \& effectively communicating product designs.
+
+I have experimented with different design tools while working on multiple projects- redesigning the \textbf{\href{http://bit/ly/primevideocasestudy}{Amazon Prime Video interface}}, a \textbf{\href{http://bit/ly/adultitcasestudy}{Mentorship App}}, as well as a \textbf{\href{http://bit/ly/barkcasestudy}{Smart Collar App}}, which was among the top 10 finalists among 137 teams worldwide in a UX Hackathon. 
+
+Figma, Invision, Sketch, Adobe Suite softwares, etc. are a few of the design tools I'm extremely proficient in.I have also worked on front-end development in collaboration using HTML, CSS, Javascript and AnimeJS- my \textbf{\href{http://deepabharadwaj.com}{UX design portfolio }} which was coded from scratch being an example of the same. Working with front-end developers has taught me the importance of having a defined set of design specifications, to avoid the added time and hassle of development iterations.
+
+My professional experience as an Architectural Designer included designing buildings under construction in Chicago, Oakland and Honolulu. I've won multiple awards and my design projects have been published in magazines and on websites. At CallisonRTKL, I set up an in-house visual rendering team which proved to be twice as efficient and cut rendering costs by 75 \%. At my current design job, I'm working on designing a \$ 19 million high rise residential building in Oakland, which involves frequent design iterations based on constant communication with the client, as well as cross disciplinary collaboration to enable smooth and efficient construction of the project.
+
+% \lettersection{Why Google?} 
+I'd love to apply my expertise in design and experience collaborating cross-functionally with multi-disciplinary teams to help build your product. As a UX Designer with a trans disciplinary background, I would be able to XXX to your company.
+
+In closing, I appreciate your consideration, and look forward to hearing from you and becoming a member of your team!
+
+
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
